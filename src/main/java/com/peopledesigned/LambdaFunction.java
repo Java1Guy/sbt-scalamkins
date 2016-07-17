@@ -11,4 +11,5 @@ public @interface LambdaFunction {
   public String path();
 	public String inputModel() default "";
 	public String outputModel() default "";
+	public String[] methods() default "GET";
 }
