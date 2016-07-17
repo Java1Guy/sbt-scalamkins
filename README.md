@@ -10,3 +10,7 @@ deploy one function
 
 test function
 configure test event
+
+app.debug = True
+
+Router function
